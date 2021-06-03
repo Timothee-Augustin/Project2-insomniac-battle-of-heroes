@@ -1,0 +1,14 @@
+.rules {
+  color: lightgray;
+  background: linear-gradient(0.25turn, #383838, #202020);
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  padding: 20px 50px 20px 50px;
+}
+
+.pBold {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #2dffe0;
+}

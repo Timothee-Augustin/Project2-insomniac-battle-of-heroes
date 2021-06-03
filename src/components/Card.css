@@ -1,0 +1,91 @@
+.card {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#383838, #202020);
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 0.2s ease;
+    margin: 1rem;
+}
+
+.card :focus {
+    clip-path: inset(20px 35px 130px 35px);
+}
+
+.card:hover {
+    transform: rotate(-3deg) scale(1);
+    z-index: 1;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.clicked{
+    clip-path: inset(-100px);
+    transform: rotate(-3deg);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 10px #2dffe0;
+    z-index: 1;
+}
+
+.fightingCard {
+    border-radius: 0px;
+    width: 200px;
+    height: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#383838, #202020);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 10px #2dffe0;
+}
+
+.heroAvatar {
+    border-radius: 0px 0px 0 0;
+    height: 140px;
+    padding-top: 20px;
+}
+
+.cardBody {
+    padding: 10px 10px;
+}
+
+.cardBody:hover {
+    padding: 10px 10px;
+}
+
+.heroName {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #2dffe0;
+}
+
+.cardText {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: lightgray;
+}
+
+.durability {
+    font-size: 15px;
+}
+
+.greenText {
+    color: #127c12;
+}
+
+.orangeText {
+    color: #feb902;
+}
+
+.redText {
+    color: red;
+}
